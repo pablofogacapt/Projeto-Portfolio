@@ -20,6 +20,7 @@ header {
 
 header h1 {
     color: rgb(144, 255, 116);
+    background-color:  rgb(52, 52, 52);
     font-family: 'Bebas Neue';
     margin-left: 30px;
     padding-top: 12px;
@@ -114,6 +115,7 @@ menu > ul > li > a:hover {
 }
 
 main {
-
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
