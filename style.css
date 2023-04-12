@@ -29,8 +29,12 @@ header h1 {
     
 }
 
-header a {
+header li a {
     color: white;
+}
+
+header > h1 > a {
+    color: greenyellow;
 }
 
 header {
