@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #252525;
+    width: 100vw;
+}
+
+header {
+    background-color: rgb(52, 52, 52);
+    height: 70px;
+    width: 100vw;
+    margin-top: 0px;
+}
+
+header h1 {
+    color: rgb(144, 255, 116);
+    font-family: 'Bebas Neue';
+    margin-left: 30px;
+    padding-top: 12px;
+    display: inline-block;
+    
+}
+
+ul{
+    display: block;
+   text-align: center;
+    justify-content: space-around;
+}
+
+li{
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: gray;
+    border: 1px solid rgb(232, 232, 232);
+    width: 99vw;
+    font-family: 'Bebas Neue';
+    font-size: 1.5em;
+    
+}
+
+#burger {
+    color: white;
+    display: block;
+    text-align: center;
+    width: 100vw;
+    background-color: #575757;
+}
+
+#burger:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul > li > a {
+    color: white;
+}
+
+menu > ul > li > a:hover {
+    background-color: darkgrey;
+
+}
+
+main {
+
+}
+
