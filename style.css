@@ -65,11 +65,12 @@ menu {
 }
 
 menu > ul > li > a {
-    color: white;
+    color: rgb(145, 145, 145);
 }
 
 menu > ul > li > a:hover {
-    background-color: darkgrey;
+    background-color: rgb(255, 255, 255);
+    color: white;
 
 }
 
