@@ -14,15 +14,22 @@
 <body>
     <header>
         <h1>Pablo Fogaça</h1>
+        <ul id="menu1">
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Sobre mim</a></li>
+            <li><a href="#">Contacte-me</a></li>
+        </ul>
         <span id="burger" class="material-symbols-outlined" onclick="clickMenu ()" >menu</span>
-            <menu id="itens">
+    </header>
+    <nav>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Projetos</a></li>
                 <li><a href="#">Sobre mim</a></li>
-                <li><a href="#">Contate-me</a></li>
+                <li><a href="#">Contacte-me</a></li>
             </ul>
-            </menu>
-    </header>
+            </menu>   
+    </nav>
     
     <main>
 
@@ -31,6 +38,7 @@
 
     </footer>
 <script>
+
     function clickMenu() {
         if (itens.style.display == 'block') {
             itens.style.display = 'none'
@@ -38,6 +46,8 @@
             itens.style.display = 'block'
         }
     }
+
+    
 </script>
 
 </body>

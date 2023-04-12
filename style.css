@@ -24,16 +24,46 @@ header h1 {
     margin-left: 30px;
     padding-top: 12px;
     display: inline-block;
+    text-shadow: 3px 3px 4px black;
     
 }
 
-ul{
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header > ul {
+    list-style: none;
+    display: none;
+} 
+
+header > ul > li {
+    margin-left: 50px;
+    
+}
+
+header > ul > li > a {
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px black;
+}
+
+header > ul > li > a:hover {
+    font-size: 1.6em;
+    color: greenyellow;
+}
+
+nav > menu > ul{
     display: block;
    text-align: center;
     justify-content: space-around;
 }
 
-li{
+nav > menu > ul > li{
     display: block;
     padding: 10px 0px;
     text-decoration: none;
@@ -42,16 +72,25 @@ li{
     border: 1px solid rgb(232, 232, 232);
     width: 99vw;
     font-family: 'Bebas Neue';
-    font-size: 1.5em;
-    
+    font-size: 1.5em; 
+}
+
+nav > menu > ul > li > a {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+nav > menu > ul > li > a:hover {
+    background-color: transparent;
+    color: greenyellow;
 }
 
 #burger {
     color: white;
     display: block;
     text-align: center;
-    width: 100vw;
-    background-color: #575757;
+    width: 5vw;
+    font-size: 30px ;
 }
 
 #burger:hover {
