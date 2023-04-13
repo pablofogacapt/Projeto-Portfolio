@@ -7,8 +7,11 @@
 }
 
 body {
-    background-color: #252525;
-    width: 100vw;
+    background-color: rgb(44, 44, 44);
+    background-image: url(Imagens/dark-gray-09-920x518.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    
 }
 
 header {
@@ -104,8 +107,7 @@ nav > menu > ul > li > a:hover {
 
 #burger:hover {
     cursor: pointer;
-    background-color: white;
-    color: black;
+    color: rgb(17, 255, 0);
 }
 
 menu {
@@ -123,9 +125,37 @@ menu > ul > li > a:hover {
 }
 
 main {
-    background-image: url(/Imagens/wpp.jpg);
-    background-position: center center;
-    background-size: cover;
+    display: flex;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
     color: white;
 }
 
+#tec{
+    display: inline-block;
+    width: 300px ;
+    padding-left:20px ;
+}
+
+#tec img{
+    max-width: 400px;
+    padding-left: 50px;
+}
+
+main h1 {
+    font-size: 4em;
+    padding-left: 80px;
+    padding-top: 100px;
+    color: greenyellow;
+    text-shadow: 3px 3px 4px black;
+}
+
+main h2 {
+    padding-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > picture#img {
+    padding-left: 30px;
+    padding-top:30px ;
+}
