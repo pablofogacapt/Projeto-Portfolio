@@ -13,7 +13,7 @@
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1230px) {
     #tec {
         display: none;
     }
@@ -29,6 +29,12 @@
 @media screen and (max-width: 800px) {
     #conteudo h1 {
         padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #tec {
+        font-size: 0.4em;
     }
 }
 
