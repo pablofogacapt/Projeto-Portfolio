@@ -24,6 +24,8 @@
         font-size: 0.6em;
         padding-top: 0px;
         padding-left: 0px;
+        display: block;
+        text-align: center;
     }
 }
 
@@ -36,22 +38,26 @@
 @media screen and (max-width: 768px) {
     #tec img{
         width: 300px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-picture#img {
-        max-width: 200px;
-        text-align: center;
-        display: inline;
+        padding: 0%;
     }
 }
 
 @media screen and (max-width: 1200px) {
     main {
         display: block;
+        text-align: center;
+        
     }
 }
+
+@media screen and (max-width: 1200px) {
+    main h1{
+        display: 100vh;
+        text-align: center;
+        
+    }
+}
+
 
 
 
