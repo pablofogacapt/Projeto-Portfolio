@@ -1,43 +1,56 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     #burger {
         display: none;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     #menu1 {
         display: flex;
     }
 
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 600px) {
     #tec {
-        display: none;
+        max-width: 200px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     #conteudo {
         font-size: 0.6em;
         padding-top: 0px;
+        padding-left: 0px;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     #conteudo h1 {
-        padding-top: 70px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #tec img{
+        width: 300px;
     }
 }
 
 @media screen and (max-width: 1200px) {
-    #tec {
-        font-size: 0.4em;
+    #img {
+        max-width: 100px;
+        max-height: 100px;
     }
 }
 
+@media screen and (max-width: 1200px) {
+    main {
+        display: block;
+    }
+}
 
 
 
