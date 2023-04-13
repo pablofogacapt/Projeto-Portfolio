@@ -123,8 +123,9 @@ menu > ul > li > a:hover {
 }
 
 main {
+    text-align: center;
     display: flex;
-    width: 100%;
+    width: 90%;
     font-family: 'Bebas Neue', cursive;
     color: white;
 }
@@ -149,8 +150,8 @@ main > picture#img {
     padding-top:30px ;
 }
 
-#tec img{
+div#tec{
     display: inline-block;
     width: 500px ;
-    padding-left:20px ;
+    align-items: center;
 }
